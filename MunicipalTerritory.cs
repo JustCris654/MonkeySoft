@@ -56,13 +56,13 @@ namespace MonkeySoft_2 {
 
         public override string ToString( ) {
             string tmp = "Nome comune: " + Name + "\n";
-            _residences.ForEach( x => tmp += x.ToString() +"\n" );
+            _residences.ForEach( x => tmp += x.ToString() + "\n" );
             return tmp;
         }
 
         public void Save( ) {
             StreamWriter write =
-                new StreamWriter( "./../../../output.txt"/*, append: true */);
+                new StreamWriter( "./../../../output.txt" /*, append: true */ );
             write.WriteLine( this.ToString() );
             write.Close();
         }

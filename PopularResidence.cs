@@ -24,7 +24,7 @@ namespace MonkeySoft_2 {
         public bool Equals( PopularResidence residence ) {
             return residence != null && Code    == residence.Code
                                      && Address == residence.Address && Meters == residence.Meters
-                                     && Spaces  == residence.Spaces  && Salary==residence.Salary;
+                                     && Spaces  == residence.Spaces  && Salary == residence.Salary;
         }
 
 

@@ -23,7 +23,8 @@ namespace MonkeySoft_2 {
         public abstract double PropertyTax( );
 
         public override string ToString( ) {
-            return $"{nameof(Code)}: {Code}, {nameof(Address)}: {Address}, {nameof(Meters)}: {Meters}, {nameof(Spaces)}: {Spaces}";
+            return
+                $"{nameof(Code)}: {Code}, {nameof(Address)}: {Address}, {nameof(Meters)}: {Meters}, {nameof(Spaces)}: {Spaces}";
         }
     }
 }
