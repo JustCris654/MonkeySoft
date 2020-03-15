@@ -1,0 +1,6 @@
+Nome comune: Thiene
+Code: 001, Address: ciao clang, Meters: 324, Spaces: 5, Salary: 1000
+Code: 978AA, Address: Via dei Tigli,10 - Thiene, Meters: 200, Spaces: 8, EnerrgyClass: A, TerrainExtension: 300
+Code: 253BB, Address: Via G.Leopradi,28 – Marostica, Meters: 50, Spaces: 3, Salary: 10000
+Code: 978BB, Address: |Via Pascoli,20 - Thiene, Meters: 180, Spaces: 6, EnerrgyClass: B, TerrainExtension: 300
+
