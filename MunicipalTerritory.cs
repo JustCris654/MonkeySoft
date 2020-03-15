@@ -62,7 +62,7 @@ namespace MonkeySoft_2 {
 
         public void Save( ) {
             StreamWriter write =
-                new StreamWriter( "/home/justcris/RiderProjects/MonkeySoft_2/output.txt"/*, append: true */);
+                new StreamWriter( "./../../../output.txt"/*, append: true */);
             write.WriteLine( this.ToString() );
             write.Close();
         }
